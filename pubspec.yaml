@@ -1,0 +1,46 @@
+name: flutter_display_awake
+description: "A Flutter plugin to keep the screen awake and restore default sleep behavior."
+version: 1.0.0
+homepage: https://pub.dev/packages/flutter_display_awake
+topics:
+  - screen
+  - wakelock
+  - sleep
+  - plugin
+  - flutter
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  web: ^0.5.1
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: awake.display.flutter.meterwhite.flutter_display_awake
+        pluginClass: FlutterDisplayAwakePlugin
+      ios:
+        pluginClass: FlutterDisplayAwakePlugin
+      linux:
+        pluginClass: FlutterDisplayAwakePlugin
+      macos:
+        pluginClass: FlutterDisplayAwakePlugin
+      windows:
+        pluginClass: FlutterDisplayAwakePluginCApi
+      web:
+        pluginClass: FlutterDisplayAwakeWeb
+        fileName: flutter_display_awake_web.dart
