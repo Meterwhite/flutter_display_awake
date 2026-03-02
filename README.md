@@ -2,6 +2,8 @@
 
 [![pub package](https://img.shields.io/pub/v/flutter_display_awake.svg)](https://pub.dev/packages/flutter_display_awake)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/youruser/flutter_display_awake)
+
 
 Keep the device screen awake in Flutter apps.
 

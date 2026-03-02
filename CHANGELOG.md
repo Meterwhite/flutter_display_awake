@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Updated repository metadata (added `repository` field) and README badges.
+
 ## 1.0.0
 
 - Initial stable release.
